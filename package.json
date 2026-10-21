@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-goof-mini",
+  "version": "1.0.0",
+  "description": "Minimal intentionally-vulnerable Node.js app for demoing automated dependency remediation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "adm-zip": "0.4.7",
+    "express": "4.22.3",
+    "lodash": "4.17.4",
+    "marked": "0.3.5",
+    "moment": "2.15.1"
+  },
+  "license": "Apache-2.0"
+}
