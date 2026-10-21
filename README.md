@@ -1,4 +1,4 @@
-# nodejs-goof-mini
+# minigoof
 
 A minimal, intentionally vulnerable Node.js app for demoing automated dependency remediation.
 A slimmed-down take on [nodejs-goof](https://github.com/nir-se-snyk/nodejs-goof): no databases, no

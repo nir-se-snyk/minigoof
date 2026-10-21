@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
   var items = todos.map(function (t) {
     return '<li>' + marked(t.content) + ' <small>' + moment(t.created).fromNow() + '</small></li>';
   });
-  res.send('<h1>Goof Mini TODO</h1><ul>' + items.join('') + '</ul>');
+  res.send('<h1>Minigoof TODO</h1><ul>' + items.join('') + '</ul>');
 });
 
 app.post('/create', function (req, res) {
@@ -57,7 +57,7 @@ app.get('/due', function (req, res) {
 if (require.main === module) {
   var port = process.env.PORT || 3001;
   app.listen(port, function () {
-    console.log('goof-mini listening on port ' + port);
+    console.log('minigoof listening on port ' + port);
   });
 }
 

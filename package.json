@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-goof-mini",
+  "name": "minigoof",
   "version": "1.0.0",
   "description": "Minimal intentionally-vulnerable Node.js app for demoing automated dependency remediation",
   "main": "app.js",
